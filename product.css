@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+/*Navbar CSS*/
+
+.navbar{
+  background: #eee9e5;
+  padding: 10px;
+}
+.navbar .navbar-brand{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #8f7d5e;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+  color: #8f7d5e;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0 0.8rem;
+  justify-content: center;
+  text-align: center;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+  color: black;
+}
+.dropdown-menu{
+  background: #eee9e5;
+  font-size: 1.5rem;
+}
+.dropdown-item{
+  color: #8f7d5e;
+}
+
+h2{
+    padding-top: 90px;
+    color: #8f7d5e;
+    margin-left: 50px;
+}
+.img-container{
+    justify-content:center ;
+    margin-left: 20px;
+    padding: 5px;
+}
+img{
+    padding: 5px;
+}
+/*FOOTER*/
+
+footer{
+    background: #eee9e5;
+    height: fit-content;
+    width: 100%;
+    padding-top: 40px;
+    color: #8f7d5e;
+    overflow: hidden;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 3rem 0; 
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #8f7d5e;
+}
+.socials a i{
+    font-size: 1.1rem;
+}
+.socials a:hover i{
+    color: black;
+}
+.footer-bottom{
+    background: #8f7d5e;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 18px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: #eee9e5;
+}
+.pro-con{
+  margin-top: 30%;
+}
